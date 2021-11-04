@@ -2,13 +2,13 @@
 name = "gmail-smtp-proxy"
 version = "0.0.1"
 description = "Proxy SMTP mails to GMail's oauth2 API"
-authors = ["Extrality"]
+authors = ["Arthur Woimbée <arthur.woimbee@gmail.com>"]
 packages = [
     { include = "gmail_smtp_proxy" }
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 requests = "^2.14.0"
 requests_toolbelt = "^0.9.1"
 importlib-metadata = {version = "^1.7.0", python = "<3.8"}
@@ -17,10 +17,6 @@ semver = "^2.13.0"
 google-api-python-client = "^2.29"
 google-auth-httplib2 = "0.1.0"
 google-auth-oauthlib = "0.4.6"
-
-# [tool.poetry.dev-dependencies]
-
-# versioning = "semver"
 
 [build-system]
 requires = ["poetry>=1.1.5"]
